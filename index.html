@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reto.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
     <title>Resto Semana 2</title>
   </head>
   <body>
@@ -12,7 +18,10 @@
       <div>
         <nav>
           <ul class="menu">
-            <li class="nav__item"><img src="./assets/images/logo.svg" alt=""></li>
+            <li class="nav__item menu__icon"><i class="fas fa-bars"></i></li>
+            <li class="nav__item">
+              <img src="./assets/images/logo.svg" alt="" />
+            </li>
             <li class="nav__item"><a href="http://">Product</a></li>
             <li class="nav__item"><a href="http://">Company</a></li>
             <li class="nav__item"><a href="http://">Connect</a></li>
@@ -53,7 +62,7 @@
             accusamus minus.
           </p>
         </div>
-        <div>
+        <div class="content__image">
           <img
             width="600"
             src="./assets/images/illustration-editor-desktop.svg"
@@ -63,6 +72,7 @@
         </div>
       </div>
     </div>
+    <!-- Esto es para desktop -->
     <div class="container__thrid">
       <div>
         <img src="./assets/images/illustration-phones.svg" alt="" />
@@ -77,6 +87,21 @@
         </p>
       </div>
     </div>
+    <!-- Esta es para mobile -->
+    <div class="container__thrid__mobile">
+      <div>
+        <h2>State of the Art Infraetruture</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempore
+          obcaecati alias maiores autem similique voluptate labore nulla porro
+          nostrum sequi sunt laudantium tenetur, blanditiis dolor voluptas cum
+          explicabo omnis!
+        </p>
+      </div>
+      <div>
+        <img src="./assets/images/illustration-phones.svg" alt="" />
+      </div>
+    </div>
     <div class="container__fourth">
       <div class="container__fourth__section">
         <div>
@@ -88,18 +113,14 @@
           />
         </div>
         <div class="content__paragraph__fourth">
-          <h3 class="title__paragraph__fourth">
-            Free, Open, Simple
-          </h3>
+          <h3 class="title__paragraph__fourth">Free, Open, Simple</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed atque
             eius similique cum iusto minima molestias veritatis, beatae veniam
             eum quam sint praesentium nostrum amet aut, laboriosam impedit
             accusamus minus.
           </p>
-          <h3 class="title__paragraph__fourth">
-            Powerful tooling
-          </h3>
+          <h3 class="title__paragraph__fourth">Powerful tooling</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed atque
             eius similique cum iusto minima molestias veritatis, beatae veniam
@@ -110,39 +131,39 @@
       </div>
     </div>
     <div class="footer">
-        <div>
-            <img src="./assets/images/logo.svg" alt="">
-        </div>
-        <div>
-            <h4>Product</h4>
-            <ul>
-                <li><span> Overview</span></li>
-                <li>Pricing</li>
-                <li>Marketplace</li>
-                <li>Features</li>
-                <li>Integration</li>
-            </ul>
-        </div>
-        <div>
-            <h4>Product</h4>
-            <ul>
-                <li>Overview</li>
-                <li>Pricing</li>
-                <li>Marketplace</li>
-                <li>Features</li>
-                <li>Integration</li>
-            </ul>
-        </div>
-        <div>
-            <h4>Product</h4>
-            <ul>
-                <li>Overview</li>
-                <li>Pricing</li>
-                <li>Marketplace</li>
-                <li>Features</li>
-                <li>Integration</li>
-            </ul>
-        </div>
+      <div>
+        <img src="./assets/images/logo.svg" alt="" />
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><span> Overview</span></li>
+          <li>Pricing</li>
+          <li>Marketplace</li>
+          <li>Features</li>
+          <li>Integration</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li>Overview</li>
+          <li>Pricing</li>
+          <li>Marketplace</li>
+          <li>Features</li>
+          <li>Integration</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li>Overview</li>
+          <li>Pricing</li>
+          <li>Marketplace</li>
+          <li>Features</li>
+          <li>Integration</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
